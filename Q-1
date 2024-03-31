@@ -1,0 +1,9 @@
+Unit Test (Birim Testi)
+Tanım: Unit test, yazılım geliştirme sürecinde, uygulamanın en küçük test edilebilir parçalarının (fonksiyonlar, metotlar veya sınıflar gibi) doğru çalışıp çalışmadığını kontrol etmek için kullanılan bir test türüdür. Bu testler, bağımsız ve izole bir şekilde, her bir bileşenin beklenen davranışını doğrulamak amacıyla yapılır.
+
+Bir "ürün ekleme" fonksiyonunuz var. Bu fonksiyon, ürün adı, fiyatı ve stok miktarını alıp, veritabanına kaydediyor. Unit test, bu fonksiyonun her bir girdi için beklenen çıktıyı üretip üretmediğini test eder. 
+
+Integration Test (Entegrasyon Testi)
+Tanım: Entegrasyon testi, birim testlerinin aksine, uygulamanın farklı bileşenlerinin veya modüllerinin birlikte doğru bir şekilde çalışıp çalışmadığını test etmeyi amaçlar. Bu testler, modüller arası arayüzleri ve etkileşimleri doğrulayarak, entegrasyon hatalarını tespit etmeye yöneliktir.
+
+"Ürün ekleme" ve "ürün listeleme" fonksiyonlarınız var. Ürün ekleme fonksiyonu bir ürünü veritabanına ekledikten sonra, ürün listeleme fonksiyonu bu yeni eklenen ürünü listelemeli. Entegrasyon testi, bu iki fonksiyonun birlikte doğru çalışıp çalışmadığını test eder.
